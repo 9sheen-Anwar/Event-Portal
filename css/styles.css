@@ -1,0 +1,123 @@
+* {margin:0;padding:0;}
+li {margin:0;padding:0;}
+
+
+
+/* ========		navigation	============================================================== */
+#mainnav {
+	float:right;
+	list-style-type:none;
+	display:inline;
+	margin:20px 200px 0 0;
+	font-weight:lighter;
+	overflow:hidden;
+}
+#mainnav li {
+	display:inline;
+	padding:0 !important;
+	font-size:100%;
+}
+#mainnav li a {
+	float:left;
+	text-transform:uppercase;
+	color:black;
+	text-decoration:none;
+	padding:5px 12px 5px 12px !important;
+	margin: 0 0 0 2px;
+}
+#mainnav li a:hover {
+	background: transparent url(../images/nav-bg.png) repeat-x top left;
+
+	}
+#mainnav li.current a:link {
+	background: transparent url(../images/nav-bg.png) repeat-x top left;
+
+	}
+#mainnav li.current a:visited {
+	background: transparent url(../images/nav-bg.png) repeat-x top left;
+
+	}
+
+* html #mainnav li a {
+	float:left;
+	background:#644322;
+	text-transform:uppercase;
+	color:#f6e8d2;
+	text-decoration:none;
+	padding:5px 12px 5px 12px !important;
+	margin: 0 0 0 2px;
+}
+* html #mainnav li a:hover {
+	background: #493119;
+	color:#d0934d;
+	}
+
+* html #mainnav li a:hover {
+	background: #493119;
+	color:#d0934d;
+	}
+* html #mainnav li.current a:link {
+	background: #493119;
+	color:#d0934d;
+	}
+* html #mainnav li.current a:visited {
+	background: #493119;
+	color:#d0934d;
+	}
+	
+/* ========		sub navigation	============================================================== */
+#subnavwrap {
+	float:left;
+	padding:0 0 20px 0;
+	z-index:99;
+}
+#subnav {
+	float:left;
+	list-style-type:none;
+	display:inline;
+	margin:14px 0 0 0 !important;
+	padding: 0 0 0 8px !important;
+	font-weight:lighter;
+	overflow:hidden;
+	background:#150e06;
+	width:380px;
+}
+#subnav li {
+	display:inline;
+	padding:0 !important;
+	font-size:100%;
+}
+#subnav li a {
+	float:left;
+	background:none;
+	color:#996633;
+	text-decoration:none;
+	padding:5px 12px 5px 12px !important;
+	margin: 0 0 0 2px;
+}
+#subnav li a:hover {
+	background:#25180c;
+	color:#d0934d;
+	}
+#subnav li.current a:link {
+	background:#25180c;
+	color:#d0934d;
+	}
+#subnav li.current a:visited {
+	background:#25180c;
+	color:#d0934d;
+	}
+img#subgraphic {
+	float:right;
+	border:1px solid #362411;
+	margin:-15px 0 0 0;
+	padding:0;
+}
+* html img#subgraphic {
+	float:right;
+	border:1px solid #362411;
+	margin:0 0 0 0;
+	padding:0;
+}
+	
+	
